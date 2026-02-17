@@ -7,11 +7,11 @@ metadata:
     This is the example component for RHDH
   links:
     - title: MyApp Website
-      url: https://myapp.example.com
+      url: https://containerapps-albumui-sampleapp.apps.cluster-tlx6x.tlx6x.sandbox1448.opentlc.com/
     - title: MyApp Issues
-      url: https://jira.myapp.com
-    - title: Blog
-      url: https://myapp.example.com/blog
+      url: https://github.com/akubicharm/containerapps-albumui/issues
+    - title: Wiki
+      url: https://github.com/akubicharm/containerapps-albumui/wiki
     - title: Slack
       url: https://myapp.example.slack.com
   annotations:
