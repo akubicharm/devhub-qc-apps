@@ -8,27 +8,3 @@ metadata:
 spec:
   type: team
   children: ["default/frontend-team", "default/backstage"]
-  members: ["default/akubicharm"]
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: backstage
-  namespace: default
-  description: The Backstage  Group
-spec:
-  children: ["maintainers"]
-  type: team
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: maintainers
-  namespace: default
-  description: The Backstage maintainers Group
-spec:
-  parent: backstage
-  children: []
-  type: team
