@@ -14,8 +14,19 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: backstage/maintainers
+  name: backstage
   namespace: default
-  description: The Backstage Maintainers Group
+  description: The Backstage  Group
 spec:
+  type: team
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: maintainers
+  namespace: default
+  description: The Backstage maintainers Group
+spec:
+  parent: backstage
   type: team
