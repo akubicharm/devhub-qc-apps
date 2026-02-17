@@ -18,6 +18,7 @@ metadata:
   namespace: default
   description: The Backstage  Group
 spec:
+  children: ["maintainers"]
   type: team
 
 ---
@@ -29,5 +30,4 @@ metadata:
   description: The Backstage maintainers Group
 spec:
   parent: backstage
-  children: []  
   type: team
