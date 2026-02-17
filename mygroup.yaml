@@ -6,7 +6,7 @@ metadata:
   namespace: default
   description: The App Team group
 spec:
-  type: business-unit
+  type: team
   children: ["default/frontend-team", "default/backstage"]
   members: ["default/akubicharm"]
 
