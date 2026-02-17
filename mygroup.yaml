@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: app-team
-  namespace: rhdh-operator
+  namespace: default
   description: The App Team group
 spec:
   type: business-unit
