@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -8,3 +9,13 @@ spec:
   type: business-unit
   children: ["default/frontend-team", "backstage/maintainers"]
   members: ["default/akubicharm"]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: backstage/maintainers
+  namespace: default
+  description: The Backstage Maintainers Group
+spec:
+  type: team
