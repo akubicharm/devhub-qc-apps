@@ -12,8 +12,8 @@ metadata:
       url: https://github.com/akubicharm/containerapps-albumui/issues
     - title: Wiki
       url: https://github.com/akubicharm/containerapps-albumui/wiki
-    - title: Slack
-      url: https://myapp.example.slack.com
+    - title: OpenShift Console
+      url: https://console-openshift-console.apps.cluster-tlx6x.tlx6x.sandbox1448.opentlc.com/k8s/cluster/projects/sampleapp
   annotations:
     backstage.io/kubernetes-namespace: sampleapp
     backstage.io/kubernetes-label-selector: 'app=containerapps-albumui'
