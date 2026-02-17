@@ -15,11 +15,8 @@ metadata:
     - title: Slack
       url: https://myapp.example.slack.com
   annotations:
-    argocd/app-name: 'myapp'
-    backstage.io/kubernetes-id: 'myapp'
-    github.com/project-slug: myorg/myapp
-    quay.io/repository-slug: myorg/myapp
-    backstage.io/kubernetes-namespace: myapp
+    backstage.io/kubernetes-namespace: sampleapp
+    backstage.io/kubernetes-label-selector: 'app=containerapps-albumui'
 spec:
   type: website
   system: myapp
