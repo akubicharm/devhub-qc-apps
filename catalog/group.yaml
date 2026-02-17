@@ -6,4 +6,5 @@ metadata:
   title: myapp Dev Team
 spec:
   type: team
+  parent: backstage
   children: []
