@@ -6,5 +6,5 @@ metadata:
   description: The App Team group
 spec:
   type: business-unit
-  children: ["frontend-team", "backstage/maintainers"]
-  members: ["akubicharm"]
+  children: ["default/frontend-team", "backstage/maintainers"]
+  members: ["default/akubicharm"]
