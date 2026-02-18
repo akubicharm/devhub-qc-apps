@@ -16,7 +16,7 @@ metadata:
       url: https://console-openshift-console.apps.rosa.rosa-bb7nc.0no7.p3.openshiftapps.com/k8s/cluster/projects/sampleapp
   annotations:
     backstage.io/kubernetes-namespace: sampleapp
-    backstage.io/kubernetes-label-selector: 'app=containerapps-albumui'
+    backstage.io/kubernetes-label-selector: 'app=albumui-nodejs'
 spec:
   type: website
   system: myapp
