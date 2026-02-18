@@ -7,13 +7,13 @@ metadata:
     This is the example component for RHDH
   links:
     - title: MyApp Website
-      url: https://containerapps-albumui-sampleapp.apps.cluster-tlx6x.tlx6x.sandbox1448.opentlc.com/
+      url: https://containerapps-albumui-sampleapp.apps.rosa.rosa-bb7nc.0no7.p3.openshiftapps.com/
     - title: MyApp Issues
       url: https://github.com/akubicharm/containerapps-albumui/issues
     - title: Wiki
       url: https://github.com/akubicharm/containerapps-albumui/wiki
     - title: OpenShift Console
-      url: https://console-openshift-console.apps.cluster-tlx6x.tlx6x.sandbox1448.opentlc.com/k8s/cluster/projects/sampleapp
+      url: https://console-openshift-console.apps.rosa.rosa-bb7nc.0no7.p3.openshiftapps.com/k8s/cluster/projects/sampleapp
   annotations:
     backstage.io/kubernetes-namespace: sampleapp
     backstage.io/kubernetes-label-selector: 'app=containerapps-albumui'
