@@ -7,7 +7,7 @@ metadata:
     This is the example component for RHDH
   links:
     - title: MyApp Website
-      url: https://containerapps-albumui-sampleapp.apps.rosa.rosa-bb7nc.0no7.p3.openshiftapps.com/
+      url: https://albumui-nodejs-sampleapp.apps.rosa.rosa-bb7nc.0no7.p3.openshiftapps.com/
     - title: MyApp Issues
       url: https://github.com/akubicharm/containerapps-albumui/issues
     - title: Wiki
